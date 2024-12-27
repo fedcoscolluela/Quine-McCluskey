@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="quine.mccluskey.method.simulator.MainController">
+   <children>
+      <Label layoutX="226.0" layoutY="35.0" prefHeight="49.0" prefWidth="149.0" text="Solutions">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="39.0" layoutY="100.0" prefHeight="242.0" prefWidth="527.0">
+         <content>
+            <TextArea fx:id="ap" prefHeight="245.0" prefWidth="528.0" text="Please Wait ..." />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

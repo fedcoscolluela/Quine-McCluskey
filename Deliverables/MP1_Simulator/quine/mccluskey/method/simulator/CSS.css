@@ -1,0 +1,19 @@
+
+#solutionsArea{
+    -fx-border-radius: 6px ;
+    -fx-border-color: #fff;
+    -fx-background-color: #fff;
+    -fx-text-fill: #fff;
+}
+#solutionsArea .content {
+    -fx-background-color: #333333;
+}
+#AnchorPane {
+    -fx-background-color: white;
+}
+#minTerms .content{
+    -fx-background-color: #333;
+}
+#dontCares .content{
+    -fx-background-color: #333;
+}
